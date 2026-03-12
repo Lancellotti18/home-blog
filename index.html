@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Home Haven — your trusted guide to the best home improvement products, kitchen essentials, organization tools, and family-friendly home finds. Honest reviews, real picks." />
+  <meta property="og:title" content="Home Haven | Trusted Home Product Guides" />
+  <meta property="og:description" content="Discover the best household products, home organization tools, and affordable home upgrades curated for busy moms and families." />
+  <meta property="og:type" content="website" />
+  <meta name="pinterest-rich-pin" content="true" />
+  <title>Home Haven | Trusted Home Product Guides for Families</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar" role="banner">
+    🏡 New: <a href="post-kitchen-gadgets.html">10 Must-Have Kitchen Gadgets for Busy Families</a> — our most popular guide this week!
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="site-logo" aria-label="Home Haven home">
+        <span class="logo-name">Home<span>Haven</span></span>
+        <span class="logo-tagline">Home Products &amp; Ideas You'll Love</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link active">Home</a>
+        <div class="nav-dropdown">
+          <a href="blog.html" class="nav-link">Categories ▾</a>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="blog.html?cat=kitchen" role="menuitem">🍳 Kitchen Essentials</a>
+            <a href="blog.html?cat=organization" role="menuitem">📦 Home Organization</a>
+            <a href="blog.html?cat=cleaning" role="menuitem">✨ Cleaning Tools</a>
+            <a href="blog.html?cat=smart-home" role="menuitem">💡 Smart Home Products</a>
+            <a href="blog.html?cat=budget" role="menuitem">💰 Budget Home Upgrades</a>
+            <a href="blog.html?cat=family" role="menuitem">👨‍👩‍👧 Family-Friendly Ideas</a>
+          </div>
+        </div>
+        <a href="blog.html" class="nav-link">All Articles</a>
+        <a href="about.html" class="nav-link">About</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="search-btn" aria-label="Open search">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </button>
+        <a href="blog.html" class="btn btn-primary btn-sm">Browse Guides</a>
+        <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-overlay" aria-hidden="true"></div>
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <div class="mobile-nav-header">
+      <span class="logo-name">Home<span style="color:var(--color-primary)">Haven</span></span>
+      <button class="mobile-close-btn" aria-label="Close menu">✕</button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="index.html">🏠 Home</a>
+      <a href="blog.html?cat=kitchen">🍳 Kitchen Essentials</a>
+      <a href="blog.html?cat=organization">📦 Home Organization</a>
+      <a href="blog.html?cat=cleaning">✨ Cleaning Tools</a>
+      <a href="blog.html?cat=smart-home">💡 Smart Home Products</a>
+      <a href="blog.html?cat=budget">💰 Budget Upgrades</a>
+      <a href="blog.html?cat=family">👨‍👩‍👧 Family Ideas</a>
+      <a href="blog.html">📝 All Articles</a>
+      <a href="about.html">💛 About Us</a>
+    </div>
+  </nav>
+
+  <!-- Search Overlay -->
+  <div class="search-overlay" role="dialog" aria-label="Search" aria-hidden="true">
+    <div class="search-box">
+      <div class="search-box-inner">
+        <svg width="18" height="18" fill="none" stroke="#8B7D75" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="search" placeholder="Search for products, ideas, or guides…" aria-label="Search" />
+        <span style="font-size:.8rem;color:var(--color-text-lt);cursor:pointer" onclick="document.querySelector('.search-overlay').classList.remove('open');document.body.style.overflow=''">ESC</span>
+      </div>
+      <p style="font-size:.8rem;color:var(--color-text-lt);margin-top:12px;text-align:center">
+        Try: "kitchen organization", "cleaning gadgets", "budget home ideas"
+      </p>
+    </div>
+  </div>
+
+  <main id="main-content">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <div class="hero-eyebrow">
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v.75m0 0H3.75a2.25 2.25 0 00-2.25 2.25v15A2.25 2.25 0 003.75 24h16.5A2.25 2.25 0 0022.5 21.75v-15A2.25 2.25 0 0020.25 4.5h-2.25m-6 0V3.75a2.25 2.25 0 00-2.25-2.25H10.5m0 0h3"/></svg>
+            Trusted by 50,000+ Families
+          </div>
+          <h1 class="hero-title" id="hero-title">
+            Find Home Products<br>Your Family Will <em>Actually Love</em>
+          </h1>
+          <p class="hero-subtitle">
+            Honest, hands-on guides to the best kitchen tools, home organizers, cleaning gadgets, and affordable upgrades — curated by a mom, for families who want a home they love.
+          </p>
+          <div class="hero-actions">
+            <a href="post-kitchen-gadgets.html" class="btn btn-primary btn-lg">
+              See Top Kitchen Picks
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="blog.html" class="btn btn-secondary btn-lg">Browse All Guides</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <span class="hero-stat-number">200+</span>
+              <span class="hero-stat-label">Products Tested</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-number">50K+</span>
+              <span class="hero-stat-label">Happy Readers</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-number">6</span>
+              <span class="hero-stat-label">Categories</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-img-frame">
+            <div class="hero-img-main">
+              <!-- Replace with a real lifestyle photo -->
+              <svg viewBox="0 0 100 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="10" y="20" width="80" height="50" rx="4" fill="#C4844A" opacity=".15"/>
+                <rect x="20" y="30" width="25" height="30" rx="2" fill="#C4844A" opacity=".3"/>
+                <rect x="55" y="35" width="25" height="20" rx="2" fill="#7B9E87" opacity=".3"/>
+                <circle cx="50" cy="18" r="8" fill="#C4844A" opacity=".2"/>
+                <path d="M30 60 Q50 40 70 60" stroke="#C4844A" stroke-width="1.5" fill="none" opacity=".3"/>
+              </svg>
+            </div>
+            <div class="hero-badge">
+              <span class="hero-badge-icon">⭐</span>
+              <div class="hero-badge-text">
+                <strong>Editor's Top Pick</strong>
+                <span>Updated weekly</span>
+              </div>
+            </div>
+            <div class="hero-badge-2">
+              <strong>FREE</strong>
+              <span>Guides</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CATEGORIES STRIP ===== -->
+    <section class="categories-strip" aria-label="Browse by category">
+      <div class="container">
+        <div class="categories-row" role="list">
+          <a href="blog.html" class="category-pill active" role="listitem">
+            <span>🏡</span> All Picks
+          </a>
+          <a href="blog.html?cat=kitchen" class="category-pill" role="listitem">
+            <span>🍳</span> Kitchen
+          </a>
+          <a href="blog.html?cat=organization" class="category-pill" role="listitem">
+            <span>📦</span> Organization
+          </a>
+          <a href="blog.html?cat=cleaning" class="category-pill" role="listitem">
+            <span>✨</span> Cleaning
+          </a>
+          <a href="blog.html?cat=smart-home" class="category-pill" role="listitem">
+            <span>💡</span> Smart Home
+          </a>
+          <a href="blog.html?cat=budget" class="category-pill" role="listitem">
+            <span>💰</span> Budget Buys
+          </a>
+          <a href="blog.html?cat=family" class="category-pill" role="listitem">
+            <span>👨‍👩‍👧</span> Family
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURED POSTS ===== -->
+    <section class="featured-posts section" aria-labelledby="featured-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Staff Favorites</span>
+          <h2 class="section-title" id="featured-heading">Our Most Loved Guides</h2>
+          <p class="section-subtitle">Honest, in-depth guides to the products that actually make daily life easier for real families.</p>
+        </div>
+
+        <!-- Featured Articles Grid -->
+        <div style="display:grid; grid-template-columns: repeat(3,1fr); gap:28px; margin-bottom:28px;">
+
+          <!-- Featured Big Card -->
+          <article class="post-card post-card-featured" style="grid-column:1/-1; flex-direction:row; max-height:340px;">
+            <div class="post-card-img" style="width:48%;flex-shrink:0;">
+              <div class="post-card-img-placeholder" style="height:100%;aspect-ratio:unset;">🍳</div>
+              <span class="post-card-category">Kitchen</span>
+            </div>
+            <div class="post-card-body" style="padding:32px 36px;">
+              <div class="post-card-meta">
+                <span>March 10, 2026</span>
+                <span class="dot">·</span>
+                <span>8 min read</span>
+                <span class="dot">·</span>
+                <span>⭐ Editor's Pick</span>
+              </div>
+              <h3 class="post-card-title" style="font-size:1.5rem;">
+                <a href="post-kitchen-gadgets.html">10 Must-Have Kitchen Gadgets for Busy Families (That Are Actually Worth It)</a>
+              </h3>
+              <p class="post-card-excerpt">
+                Tired of cluttered counters and gadgets that never leave the drawer? We tested dozens of kitchen tools and narrowed it down to 10 that busy moms and families will actually reach for every single day — with a full comparison table so you can find your perfect match.
+              </p>
+              <div class="post-card-footer">
+                <div class="post-card-author">
+                  <div class="author-avatar">SL</div>
+                  <span>Sarah L.</span>
+                </div>
+                <a href="post-kitchen-gadgets.html" class="read-more-link">
+                  Read the guide →
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="post-card">
+            <div class="post-card-img">
+              <div class="post-card-img-placeholder">📦</div>
+              <span class="post-card-category">Organization</span>
+            </div>
+            <div class="post-card-body">
+              <div class="post-card-meta">
+                <span>Mar 8, 2026</span>
+                <span class="dot">·</span>
+                <span>6 min read</span>
+              </div>
+              <h3 class="post-card-title">
+                <a href="blog.html">15 Amazon Home Organization Finds That Will Transform Your Space</a>
+              </h3>
+              <p class="post-card-excerpt">From the pantry to the linen closet, these affordable organizers will have every room in your house looking like a Pinterest dream — without the stress.</p>
+              <div class="post-card-footer">
+                <div class="post-card-author">
+                  <div class="author-avatar" style="background:var(--color-primary);">JM</div>
+                  <span>Jamie M.</span>
+                </div>
+                <a href="blog.html" class="read-more-link">Read more →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="post-card">
+            <div class="post-card-img">
+              <div class="post-card-img-placeholder">✨</div>
+              <span class="post-card-category">Cleaning</span>
+            </div>
+            <div class="post-card-body">
+              <div class="post-card-meta">
+                <span>Mar 5, 2026</span>
+                <span class="dot">·</span>
+                <span>5 min read</span>
+              </div>
+              <h3 class="post-card-title">
+                <a href="blog.html">Best Cleaning Gadgets of 2026: We Tested 20 So You Don't Have To</a>
+              </h3>
+              <p class="post-card-excerpt">Steam mops, robot vacuums, UV sanitizers — we put the most popular cleaning tools to the test in real family homes to find out which ones actually deliver.</p>
+              <div class="post-card-footer">
+                <div class="post-card-author">
+                  <div class="author-avatar" style="background:var(--color-sage);">SL</div>
+                  <span>Sarah L.</span>
+                </div>
+                <a href="blog.html" class="read-more-link">Read more →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="post-card">
+            <div class="post-card-img">
+              <div class="post-card-img-placeholder">💰</div>
+              <span class="post-card-category">Budget</span>
+            </div>
+            <div class="post-card-body">
+              <div class="post-card-meta">
+                <span>Mar 3, 2026</span>
+                <span class="dot">·</span>
+                <span>7 min read</span>
+              </div>
+              <h3 class="post-card-title">
+                <a href="blog.html">25 Home Upgrades Under $30 That Look Like They Cost Way More</a>
+              </h3>
+              <p class="post-card-excerpt">You don't need a big budget to have a beautiful, functional home. These small swaps and affordable finds make a huge visual impact for a surprisingly small investment.</p>
+              <div class="post-card-footer">
+                <div class="post-card-author">
+                  <div class="author-avatar" style="background:#B07D5A;">TK</div>
+                  <span>Tara K.</span>
+                </div>
+                <a href="blog.html" class="read-more-link">Read more →</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="text-center">
+          <a href="blog.html" class="btn btn-secondary">View All Articles</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TRENDING PRODUCTS ===== -->
+    <section class="trending-banner" aria-labelledby="trending-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Trending This Week</span>
+          <h2 class="section-title" id="trending-heading">Products Families Are Loving Right Now</h2>
+          <p class="section-subtitle" style="color:rgba(255,255,255,0.7);margin:0 auto;">
+            Hand-picked from Amazon — rated highly by thousands of real buyers and vetted by our team.
+          </p>
+        </div>
+
+        <div class="product-cards-row">
+
+          <div class="product-mini-card" data-product="Lazy Susan Turntable">
+            <div class="product-mini-card-img">🔄</div>
+            <div class="product-mini-card-name">Lazy Susan Cabinet Organizer</div>
+            <div class="product-mini-card-price">From $14.99</div>
+            <div class="product-mini-card-rating">★★★★★ <span style="opacity:.7">(4.8)</span></div>
+            <a href="#" class="btn btn-amazon btn-sm">Check Price on Amazon</a>
+          </div>
+
+          <div class="product-mini-card" data-product="Instant Pot Duo">
+            <div class="product-mini-card-img">🍲</div>
+            <div class="product-mini-card-name">Instant Pot Duo 7-in-1</div>
+            <div class="product-mini-card-price">From $79.99</div>
+            <div class="product-mini-card-rating">★★★★★ <span style="opacity:.7">(4.9)</span></div>
+            <a href="#" class="btn btn-amazon btn-sm">Check Price on Amazon</a>
+          </div>
+
+          <div class="product-mini-card" data-product="OXO Pop Containers">
+            <div class="product-mini-card-img">🫙</div>
+            <div class="product-mini-card-name">OXO Good Grips POP Containers</div>
+            <div class="product-mini-card-price">From $24.99</div>
+            <div class="product-mini-card-rating">★★★★★ <span style="opacity:.7">(4.7)</span></div>
+            <a href="#" class="btn btn-amazon btn-sm">Check Price on Amazon</a>
+          </div>
+
+          <div class="product-mini-card" data-product="Eufy Robot Vacuum">
+            <div class="product-mini-card-img">🤖</div>
+            <div class="product-mini-card-name">Eufy RoboVac Slim</div>
+            <div class="product-mini-card-price">From $149.99</div>
+            <div class="product-mini-card-rating">★★★★☆ <span style="opacity:.7">(4.5)</span></div>
+            <a href="#" class="btn btn-amazon btn-sm">Check Price on Amazon</a>
+          </div>
+
+        </div>
+
+        <div class="text-center" style="margin-top:36px;">
+          <a href="post-kitchen-gadgets.html" class="btn btn-secondary" style="border-color:rgba(255,255,255,0.4);color:white;">
+            See Full Product Guide →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT STRIP ===== -->
+    <section class="about-strip" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-strip-inner">
+          <div class="about-avatar-ring" aria-hidden="true">🏡</div>
+          <div class="about-text">
+            <span class="section-eyebrow">Why HomeHaven Exists</span>
+            <blockquote>
+              "I spent years falling for hyped products that looked great online but collected dust in my cabinets. I started HomeHaven because I wanted a place where real families could find out what actually works — no fluff, no filler, just honest picks that make daily life a little easier and your home a little happier."
+            </blockquote>
+            <cite>— Sarah L. <span>· Founder, HomeHaven · Mom of 3</span></cite>
+            <div style="margin-top:20px;">
+              <a href="about.html" class="btn btn-secondary btn-sm">Read Our Story</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TRUST STRIP ===== -->
+    <div class="trust-strip" aria-label="Why trust HomeHaven">
+      <div class="container">
+        <div class="trust-items">
+          <div class="trust-item">
+            <div class="trust-item-icon">🔍</div>
+            <span>Independently Researched</span>
+          </div>
+          <div class="trust-item">
+            <div class="trust-item-icon">👨‍👩‍👧</div>
+            <span>Real Family Testing</span>
+          </div>
+          <div class="trust-item">
+            <div class="trust-item-icon">💬</div>
+            <span>50,000+ Happy Readers</span>
+          </div>
+          <div class="trust-item">
+            <div class="trust-item-icon">⭐</div>
+            <span>Only Top-Rated Products</span>
+          </div>
+          <div class="trust-item">
+            <div class="trust-item-icon">🔄</div>
+            <span>Updated Weekly</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== MORE CATEGORIES ===== -->
+    <section class="section" style="background:var(--color-white);" aria-labelledby="categories-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Browse by Room &amp; Goal</span>
+          <h2 class="section-title" id="categories-heading">Find Exactly What You Need</h2>
+          <p class="section-subtitle">Whether you're organizing a closet or upgrading your whole kitchen, we've got a guide for it.</p>
+        </div>
+
+        <div class="grid-3" style="gap:20px;">
+
+          <a href="blog.html?cat=kitchen" class="post-card" style="text-decoration:none; text-align:center; padding:32px 20px; align-items:center;" aria-label="Browse Kitchen Essentials">
+            <div style="font-size:3rem; margin-bottom:16px;">🍳</div>
+            <h3 class="post-card-title" style="font-size:1.05rem; margin-bottom:8px;">Kitchen Essentials</h3>
+            <p class="post-card-excerpt" style="font-size:.85rem; margin:0;">Gadgets, organizers &amp; tools for a smoother morning routine.</p>
+            <span class="read-more-link" style="justify-content:center; margin-top:14px;">Explore →</span>
+          </a>
+
+          <a href="blog.html?cat=organization" class="post-card" style="text-decoration:none; text-align:center; padding:32px 20px; align-items:center;" aria-label="Browse Home Organization">
+            <div style="font-size:3rem; margin-bottom:16px;">📦</div>
+            <h3 class="post-card-title" style="font-size:1.05rem; margin-bottom:8px;">Home Organization</h3>
+            <p class="post-card-excerpt" style="font-size:.85rem; margin:0;">Bins, racks, and clever storage for every room in the house.</p>
+            <span class="read-more-link" style="justify-content:center; margin-top:14px;">Explore →</span>
+          </a>
+
+          <a href="blog.html?cat=cleaning" class="post-card" style="text-decoration:none; text-align:center; padding:32px 20px; align-items:center;" aria-label="Browse Cleaning Tools">
+            <div style="font-size:3rem; margin-bottom:16px;">✨</div>
+            <h3 class="post-card-title" style="font-size:1.05rem; margin-bottom:8px;">Cleaning Tools</h3>
+            <p class="post-card-excerpt" style="font-size:.85rem; margin:0;">Robot vacuums, steam cleaners &amp; the tools that make chores easier.</p>
+            <span class="read-more-link" style="justify-content:center; margin-top:14px;">Explore →</span>
+          </a>
+
+          <a href="blog.html?cat=smart-home" class="post-card" style="text-decoration:none; text-align:center; padding:32px 20px; align-items:center;" aria-label="Browse Smart Home Products">
+            <div style="font-size:3rem; margin-bottom:16px;">💡</div>
+            <h3 class="post-card-title" style="font-size:1.05rem; margin-bottom:8px;">Smart Home Products</h3>
+            <p class="post-card-excerpt" style="font-size:.85rem; margin:0;">Affordable tech upgrades that make your home work smarter for you.</p>
+            <span class="read-more-link" style="justify-content:center; margin-top:14px;">Explore →</span>
+          </a>
+
+          <a href="blog.html?cat=budget" class="post-card" style="text-decoration:none; text-align:center; padding:32px 20px; align-items:center;" aria-label="Browse Budget Home Upgrades">
+            <div style="font-size:3rem; margin-bottom:16px;">💰</div>
+            <h3 class="post-card-title" style="font-size:1.05rem; margin-bottom:8px;">Budget Home Upgrades</h3>
+            <p class="post-card-excerpt" style="font-size:.85rem; margin:0;">Big impact, small price — the best finds under $30, $50, and $100.</p>
+            <span class="read-more-link" style="justify-content:center; margin-top:14px;">Explore →</span>
+          </a>
+
+          <a href="blog.html?cat=family" class="post-card" style="text-decoration:none; text-align:center; padding:32px 20px; align-items:center;" aria-label="Browse Family-Friendly Home Ideas">
+            <div style="font-size:3rem; margin-bottom:16px;">👨‍👩‍👧</div>
+            <h3 class="post-card-title" style="font-size:1.05rem; margin-bottom:8px;">Family-Friendly Ideas</h3>
+            <p class="post-card-excerpt" style="font-size:.85rem; margin:0;">Kid-safe, durable, practical products that make family life smoother.</p>
+            <span class="read-more-link" style="justify-content:center; margin-top:14px;">Explore →</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== NEWSLETTER ===== -->
+    <section class="newsletter-section" aria-labelledby="newsletter-heading">
+      <div class="container">
+        <span class="section-eyebrow" style="color:rgba(255,255,255,0.7);">Join 50,000+ Families</span>
+        <h2 class="section-title" id="newsletter-heading">Get Weekly Home Finds in Your Inbox</h2>
+        <p class="newsletter-subtitle">
+          Every week I share my top new finds, budget-friendly upgrades, and the products real families are loving right now. No spam. Just genuinely good stuff.
+        </p>
+        <form class="newsletter-form" novalidate>
+          <label for="newsletter-email" class="visually-hidden">Your email address</label>
+          <input
+            class="newsletter-input"
+            type="email"
+            id="newsletter-email"
+            name="email"
+            placeholder="Enter your email address…"
+            autocomplete="email"
+            required
+          />
+          <button type="submit" class="btn btn-primary">Subscribe Free</button>
+        </form>
+        <p class="newsletter-disclaimer">Join free. Unsubscribe anytime. We respect your privacy.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="index.html" class="logo-name">Home<span>Haven</span></a>
+          <p>
+            HomeHaven is your trusted guide to the best household products, home organization tools, and family-friendly home finds. Honest reviews, real picks — from a real mom.
+          </p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" class="social-link" aria-label="Pinterest">
+              <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="blog.html?cat=kitchen">Kitchen Essentials</a></li>
+            <li><a href="blog.html?cat=organization">Home Organization</a></li>
+            <li><a href="blog.html?cat=cleaning">Cleaning Tools</a></li>
+            <li><a href="blog.html?cat=smart-home">Smart Home</a></li>
+            <li><a href="blog.html?cat=budget">Budget Upgrades</a></li>
+            <li><a href="blog.html?cat=family">Family-Friendly</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Top Guides</h4>
+          <ul>
+            <li><a href="post-kitchen-gadgets.html">10 Must-Have Kitchen Gadgets</a></li>
+            <li><a href="blog.html">Best Home Organization Finds</a></li>
+            <li><a href="blog.html">Budget Home Upgrades Under $30</a></li>
+            <li><a href="blog.html">Best Robot Vacuums</a></li>
+            <li><a href="blog.html">Pantry Organization Ideas</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>About</h4>
+          <ul>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="about.html#team">Meet the Team</a></li>
+            <li><a href="about.html#contact">Contact Us</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#affiliate">Affiliate Disclosure</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          <p style="color:rgba(255,255,255,0.5);">© 2026 HomeHaven. All rights reserved.</p>
+          <div class="footer-links" style="margin-top:6px;">
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#affiliate">Affiliate Disclosure</a>
+            <a href="#terms">Terms of Use</a>
+          </div>
+        </div>
+        <p class="footer-disclaimer">
+          HomeHaven is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate, we earn from qualifying purchases at no extra cost to you.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

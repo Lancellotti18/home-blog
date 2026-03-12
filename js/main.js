@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
         || 'Unknown Product';
 
       // Replace with real analytics tracking (e.g., Google Analytics event)
-      console.log(`[HomeHaven] Amazon click: ${productName}`);
+      console.log(`[The House Hunter] Amazon click: ${productName}`);
     });
   });
 

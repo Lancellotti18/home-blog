@@ -1643,6 +1643,37 @@ h1, h2, h3, h4, h5 {
 }
 
 /* ===================================
+   PINTEREST SAVE BUTTON
+   =================================== */
+.pinterest-save-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #e60023;
+  color: white;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: var(--radius-pill);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  opacity: 0;
+  transform: translateY(-4px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  text-decoration: none;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.post-card-img:hover .pinterest-save-btn,
+.product-rec-img:hover .pinterest-save-btn,
+.product-mini-card-img:hover .pinterest-save-btn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===================================
    UTILITIES
    =================================== */
 .text-center { text-align: center; }

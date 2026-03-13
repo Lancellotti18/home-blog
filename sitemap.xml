@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ============================================================
+  The House Hunter — XML Sitemap
+  ============================================================
+  Submit this sitemap URL to Google Search Console:
+    https://home-blog.vercel.app/sitemap.xml
+  (Replace with your actual domain once you have one.)
+  ============================================================
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://home-blog.vercel.app/</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Blog Listing -->
+  <url>
+    <loc>https://home-blog.vercel.app/blog.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://home-blog.vercel.app/about.html</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://home-blog.vercel.app/privacy-policy.html</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Affiliate Disclosure -->
+  <url>
+    <loc>https://home-blog.vercel.app/affiliate-disclosure.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- POST 4 — Best Cleaning Gadgets of 2026 (newest) -->
+  <url>
+    <loc>https://home-blog.vercel.app/post-cleaning-gadgets.html</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://home-blog.vercel.app/images/posts/cleaning-gadgets-hero.jpg</image:loc>
+      <image:title>Best Cleaning Gadgets of 2026: We Tested 20 So You Don't Have To</image:title>
+      <image:caption>Robot vacuums, steam mops, and electric scrubbers tested in real family homes</image:caption>
+    </image:image>
+  </url>
+
+  <!-- POST 3 — 25 Budget Home Upgrades Under $30 -->
+  <url>
+    <loc>https://home-blog.vercel.app/post-budget-upgrades.html</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://home-blog.vercel.app/images/posts/budget-upgrades-hero.jpg</image:loc>
+      <image:title>25 Home Upgrades Under $30 That Look Like They Cost Way More</image:title>
+      <image:caption>Affordable Amazon home upgrades with big visual impact</image:caption>
+    </image:image>
+  </url>
+
+  <!-- POST 2 — 15 Home Organization Finds -->
+  <url>
+    <loc>https://home-blog.vercel.app/post-home-organization.html</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://home-blog.vercel.app/images/posts/home-organization-hero.jpg</image:loc>
+      <image:title>15 Amazon Home Organization Finds That Will Transform Your Space</image:title>
+      <image:caption>Amazon home organization products for every room</image:caption>
+    </image:image>
+  </url>
+
+  <!-- POST 1 — 10 Must-Have Kitchen Gadgets -->
+  <url>
+    <loc>https://home-blog.vercel.app/post-kitchen-gadgets.html</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://home-blog.vercel.app/images/posts/kitchen-gadgets-hero.jpg</image:loc>
+      <image:title>10 Must-Have Kitchen Gadgets for Busy Families</image:title>
+      <image:caption>The best kitchen gadgets tested by real families</image:caption>
+    </image:image>
+  </url>
+
+</urlset>

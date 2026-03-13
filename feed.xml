@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ============================================================
+  The House Hunter — RSS Feed
+  ============================================================
+  IMPORTANT: Replace "https://home-blog.vercel.app" below
+  with your actual site URL once you have a custom domain.
+  This feed URL is what you paste into dlvr.it / IFTTT to
+  connect your blog to Pinterest automatically.
+  ============================================================
+-->
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+  <channel>
+    <title>The House Hunter</title>
+    <link>https://home-blog.vercel.app</link>
+    <description>Honest, hands-on guides to the best kitchen tools, home organizers, cleaning gadgets, and affordable upgrades — curated for moms and families who want a home they love.</description>
+    <language>en-us</language>
+    <copyright>© 2026 The House Hunter</copyright>
+    <managingEditor>hello@thehousehunter.com (Sarah L.)</managingEditor>
+    <webMaster>hello@thehousehunter.com</webMaster>
+    <lastBuildDate>Wed, 12 Mar 2026 08:00:00 +0000</lastBuildDate>
+    <ttl>1440</ttl>
+    <image>
+      <url>https://home-blog.vercel.app/images/logo.png</url>
+      <title>The House Hunter</title>
+      <link>https://home-blog.vercel.app</link>
+    </image>
+    <atom:link href="https://home-blog.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <!-- POST 4 — Cleaning Gadgets (newest first)              -->
+    <!-- ══════════════════════════════════════════════════════ -->
+    <item>
+      <title>Best Cleaning Gadgets of 2026: We Tested 20 So You Don't Have To</title>
+      <link>https://home-blog.vercel.app/post-cleaning-gadgets.html</link>
+      <guid isPermaLink="true">https://home-blog.vercel.app/post-cleaning-gadgets.html</guid>
+      <pubDate>Wed, 11 Mar 2026 08:00:00 +0000</pubDate>
+      <dc:creator>Sarah L.</dc:creator>
+      <category>Cleaning Tools</category>
+      <description><![CDATA[
+        Robot vacuums, steam mops, electric scrubbers — we put the most popular cleaning gadgets to the test in real family homes to find out which ones are actually worth buying on Amazon.
+      ]]></description>
+      <content:encoded><![CDATA[
+        <p>We tested 20+ cleaning products over 3 months in real family homes with kids, pets, and messes. These are the 10 that actually earned their keep.</p>
+        <p><a href="https://home-blog.vercel.app/post-cleaning-gadgets.html">Read the full guide →</a></p>
+      ]]></content:encoded>
+      <media:content
+        url="https://home-blog.vercel.app/images/posts/cleaning-gadgets-hero.jpg"
+        medium="image"
+        type="image/jpeg"
+        width="1200"
+        height="630"/>
+      <media:description>Best cleaning gadgets tested by real families</media:description>
+    </item>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <!-- POST 3 — Budget Home Upgrades                         -->
+    <!-- ══════════════════════════════════════════════════════ -->
+    <item>
+      <title>25 Home Upgrades Under $30 That Look Like They Cost Way More</title>
+      <link>https://home-blog.vercel.app/post-budget-upgrades.html</link>
+      <guid isPermaLink="true">https://home-blog.vercel.app/post-budget-upgrades.html</guid>
+      <pubDate>Mon, 09 Mar 2026 08:00:00 +0000</pubDate>
+      <dc:creator>Tara K.</dc:creator>
+      <category>Budget Home Upgrades</category>
+      <description><![CDATA[
+        You don't need a big budget to have a beautiful, functional home. These small Amazon swaps and affordable finds make a huge visual impact for a surprisingly small investment — all under $30.
+      ]]></description>
+      <content:encoded><![CDATA[
+        <p>Big impact, small price. These 25 Amazon finds all cost under $30 and make your home look and feel completely upgraded.</p>
+        <p><a href="https://home-blog.vercel.app/post-budget-upgrades.html">See all 25 picks →</a></p>
+      ]]></content:encoded>
+      <media:content
+        url="https://home-blog.vercel.app/images/posts/budget-upgrades-hero.jpg"
+        medium="image"
+        type="image/jpeg"
+        width="1200"
+        height="630"/>
+      <media:description>Affordable Amazon home upgrades under $30</media:description>
+    </item>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <!-- POST 2 — Home Organization                            -->
+    <!-- ══════════════════════════════════════════════════════ -->
+    <item>
+      <title>15 Amazon Home Organization Finds That Will Transform Your Space</title>
+      <link>https://home-blog.vercel.app/post-home-organization.html</link>
+      <guid isPermaLink="true">https://home-blog.vercel.app/post-home-organization.html</guid>
+      <pubDate>Sat, 07 Mar 2026 08:00:00 +0000</pubDate>
+      <dc:creator>Jamie M.</dc:creator>
+      <category>Home Organization</category>
+      <description><![CDATA[
+        From the pantry to the linen closet, these affordable Amazon organizers will have every room in your house looking like a Pinterest dream — without the stress or the high price tag.
+      ]]></description>
+      <content:encoded><![CDATA[
+        <p>15 home organization products from Amazon that are genuinely life-changing. Tested in real homes, loved by real moms.</p>
+        <p><a href="https://home-blog.vercel.app/post-home-organization.html">See all 15 picks →</a></p>
+      ]]></content:encoded>
+      <media:content
+        url="https://home-blog.vercel.app/images/posts/home-organization-hero.jpg"
+        medium="image"
+        type="image/jpeg"
+        width="1200"
+        height="630"/>
+      <media:description>Amazon home organization products for every room</media:description>
+    </item>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <!-- POST 1 — Kitchen Gadgets (original post)              -->
+    <!-- ══════════════════════════════════════════════════════ -->
+    <item>
+      <title>10 Must-Have Kitchen Gadgets for Busy Families (That Are Actually Worth It)</title>
+      <link>https://home-blog.vercel.app/post-kitchen-gadgets.html</link>
+      <guid isPermaLink="true">https://home-blog.vercel.app/post-kitchen-gadgets.html</guid>
+      <pubDate>Mon, 10 Mar 2026 08:00:00 +0000</pubDate>
+      <dc:creator>Sarah L.</dc:creator>
+      <category>Kitchen Essentials</category>
+      <description><![CDATA[
+        Stop buying gadgets that gather dust. We tested over 30 kitchen tools and narrowed it down to 10 that busy moms and families will actually reach for every single day — with a full comparison table.
+      ]]></description>
+      <content:encoded><![CDATA[
+        <p>We tested 30+ kitchen gadgets. These 10 are the ones that actually earn permanent counter space in a busy family kitchen.</p>
+        <p><a href="https://home-blog.vercel.app/post-kitchen-gadgets.html">Read the full guide →</a></p>
+      ]]></content:encoded>
+      <media:content
+        url="https://home-blog.vercel.app/images/posts/kitchen-gadgets-hero.jpg"
+        medium="image"
+        type="image/jpeg"
+        width="1200"
+        height="630"/>
+      <media:description>10 must-have kitchen gadgets for busy families</media:description>
+    </item>
+
+  </channel>
+</rss>
